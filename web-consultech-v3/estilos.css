@@ -142,7 +142,6 @@ body {
     .container-slider {
         position: initial;
         overflow: hidden;
- 
     }
     
     .slider {
@@ -150,14 +149,13 @@ body {
         width: 400%;
         height: 480px;
         margin-left: -100%;
-
     }
     
     .slider__section {
         width: 100%;
-        
     }
-    .contenido{
+    
+    .contenido {
         width: 100%;
         height: 100%;
         font-size: 50px;
@@ -166,7 +164,8 @@ body {
         align-items: center;
         background-image: url(img/img4.jpg);
     }
-    .contenido2{
+    
+    .contenido2 {
         width: 100%;
         height: 100%;
         white-space: nowrap;
@@ -175,9 +174,9 @@ body {
         justify-content: center;
         align-items: center;
         background-image: url(img/img2.jpg);
-     
     }
-    .contenido3{
+    
+    .contenido3 {
         width: 100%;
         height: 500px;
         font-size: 50px;
@@ -186,7 +185,8 @@ body {
         align-items: center;
         background-image: url(img/img3.jpg);
     }
-    .contenido4{
+    
+    .contenido4 {
         width: 100%;
         height: 500px;
         font-size: 50px;
@@ -195,12 +195,14 @@ body {
         align-items: center;
         background-image: url(img/image.jpg);
     }
+    
     .slider__img {
-        display:flex ;
+        display: flex;
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
+    
     .slider__btn {
         position: absolute;
         width: 40px;
@@ -380,6 +382,7 @@ body {
         -ms-transform: translateY(-200px);
         transform: translateY(-200px);
     }
+    
     .container1 {
         width: 100%;
         background: #fff;
@@ -419,7 +422,7 @@ body {
         color: #fff;
         text-align: center;
     }
-
+    
     .container3 {
         background: #fff;
         padding: 40px;
@@ -448,7 +451,7 @@ body {
         display: flex;
         justify-content: center;
         margin-top: 20px;
-       margin-bottom: 20px;
+        margin-bottom: 20px;
         margin-left: 2%;
         margin-right: 2%;
         opacity: 0;
@@ -466,6 +469,7 @@ body {
         max-width: 100%;
         max-height: 100%;
     }
+    
     .caja {
         position: absolute;
         bottom: 100px;
@@ -475,6 +479,7 @@ body {
         width: auto;
         background-color: #fff;
     }
+    
     .cont-figure {
         max-height: 100%;
         width: auto;
@@ -738,16 +743,17 @@ body {
             transform: translateY(-300%);
         }
     }
-     @media (max-width: 700px) {
-        .slider{
+    
+    @media (max-width: 700px) {
+        .slider {
             padding: 0 0 0 0;
-            max-width: 1975px;
+            max-width: 2800px;
             height: auto;
             orientation: landscape;
             margin: 0 0 0 0;
-            
         }
-     }
+    }
+    
     @media (max-width: 700px) {
         .contenedor2 {
             margin-left: 20%;
