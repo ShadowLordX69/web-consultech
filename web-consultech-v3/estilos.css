@@ -747,7 +747,7 @@ body {
     @media (max-width: 700px) {
         .slider {
             padding: 0 0 0 0;
-            max-width: 2800px;
+            max-width: 3000px;
             height: auto;
             orientation: landscape;
             margin: 0 0 0 0;
